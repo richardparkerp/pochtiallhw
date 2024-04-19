@@ -1,0 +1,11 @@
+*{
+    background-color: aqua;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(234, 0, 0);
+    color: white;
+}

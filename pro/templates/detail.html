@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="post">
+{{ todo.title }}
+{{ todo.memo }}
+{{ todo.important }}
+<a href="{% url 'delete' todo.id %}"><p>Delete</p></a>
+<a href="{% url 'update' todo.id %}"><p>Update</p></a>
+</div>
+{% endblock %}
